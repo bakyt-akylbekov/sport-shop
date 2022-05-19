@@ -1,0 +1,658 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+
+}
+
+.col-4 {
+    width: 33.3%;
+    padding: 0 15px;
+}
+
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0;
+}
+
+.header-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #212A2F;
+    margin-right: 36px;
+}
+
+.header-icon {
+    margin-right: 15px;
+}
+
+/*runner*/
+.runner {
+    background: url("../images/runner/Rectangle.png") no-repeat;
+    height: 740px;
+    color: white;
+}
+
+.runner-block {
+    display: flex;
+    align-items: flex-end;
+    height: 740px;
+
+}
+
+.runner-content {
+    padding-bottom: 66px;
+}
+
+.runner-title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 63px;
+}
+
+.runner-text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 11px 0 24px;
+}
+
+.runner-button {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 15px 46px;
+    outline: none;
+    border-radius: 2px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 24px;
+
+}
+
+.runner-button:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+
+}
+
+/*runner*/
+
+/*favorites*/
+.favorites {
+    padding: 119px 0 142px;
+}
+
+.favorites-title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.favorites-block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+    position: relative;
+}
+
+.favorites-block::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #D3D4D5;
+    position: absolute;
+    bottom: -12px;
+}
+
+.favorites-tab {
+    margin-right: 132px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+    transition: 0.6s;
+
+}
+
+.favorites-tab:hover {
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+.favorites-tab:last-child {
+    margin-right: 0;
+}
+
+.favorites-img {
+    width: 100%;
+}
+
+.favorites-item {
+    position: relative;
+}
+
+.favorites-buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.favorites-btn {
+    display: block;
+    width: 276px;
+    padding: 16px 0;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    outline: none;
+    border-radius: 2px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 12px;
+
+}
+
+.favorites-btn:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+
+}
+
+.favorites-content {
+    padding: 17px 30px;
+}
+
+.favorites-subtitle {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.favorites-subtitle::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: #D3D4D5;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+}
+
+.favorites-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #212A2F;
+    margin-left: 12px;
+}
+
+.favorites-descr {
+    display: flex;
+    align-items: center;
+}
+
+
+/*favorites*/
+
+
+/*seasons*/
+.seasons {
+    padding-bottom: 119px;
+}
+
+.seasons img {
+    width: 100%;
+}
+
+.seasons-content {
+    text-align: center;
+    color: #212A2F;
+}
+
+.seasons-title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    margin: 53px 0;
+}
+
+.seasons-text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+
+.seasons-btn {
+    width: 180px;
+    padding: 17px 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #212A2F;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-right: 24px;
+}
+
+.seasons-btn:hover {
+    color: white;
+    background: #212A2F;
+    transition: 0.6s;
+}
+
+/*seasons*/
+
+/*collections*/
+.collections {
+    padding-bottom: 134px;
+    color: #212A2F;
+}
+
+.collections-title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+    padding-left: 15px;
+}
+
+.collections-item{
+    padding: 0 15px;
+}
+.collections-content {
+    padding: 17px;
+}
+
+.collections-subtitle {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 10px;
+}
+
+.collections-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.collections img {
+    width: 100%;
+}
+
+
+/*collections*/
+
+
+/*nature*/
+.nature {
+    padding-bottom: 119px;
+}
+
+.nature img {
+    width: 100%;
+}
+
+.nature-content {
+    text-align: center;
+    color: #212A2F;
+}
+
+.nature-title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    margin: 44px 0 22px;
+}
+
+.nature-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 26px;
+}
+
+.nature-btn {
+    padding: 17px 154px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #212A2F;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.nature-btn:hover {
+    color: white;
+    background: #212A2F;
+    transition: 0.6s;
+}
+
+/*nature*/
+
+
+/*arrivals*/
+.arrivals {
+    padding-bottom: 134px;
+    color: #212A2F;
+}
+
+.arrivals-title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+    padding-left: 15px;
+}
+.arrivals-item{
+    padding: 0 15px;
+}
+.arrivals-content {
+    padding: 17px;
+}
+
+.arrivals-subtitle {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+}
+
+.arrivals-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 26px;
+}
+
+.arrivals img {
+    width: 100%;
+}
+
+/*arrivals*/
+
+/*climate*/
+.climate {
+    padding-bottom: 119px;
+    text-align: center;
+}
+
+.climate img {
+    width: 100%;
+    margin-bottom: 52px;
+}
+
+.climate-content {
+    text-align: center;
+    color: #212A2F;
+}
+
+.climate-title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+}
+
+.climate-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 26px;
+}
+
+.climate-btn {
+    padding: 17px 154px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #212A2F;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.6s;
+    text-align: center;
+
+}
+
+.climate-btn:hover {
+    color: white;
+    background: #212A2F;
+    transition: 0.6s;
+}
+
+
+/*climate*/
+
+
+/*stories*/
+.stories {
+    padding-bottom: 134px;
+    color: #212A2F;
+}
+
+.stories-title {
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+    padding-left: 15px;
+}
+.stories-item{
+    padding: 0 15px;
+}
+.stories-content {
+    padding: 17px;
+}
+
+.stories-subtitle {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.stories-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 26px;
+}
+
+.stories img {
+    width: 100%;
+}
+
+
+/*stories*/
+/*email*/
+.email {
+    padding-bottom: 48px;
+    text-align: center;
+    color: #212A2F;
+}
+
+.email-title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+}
+
+.email-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+
+.email-input {
+    width: 588px;
+    height: 48px;
+    border: 0;
+    border-bottom: 1px solid #212A2F;
+    padding: 0 50px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.email-btn {
+    padding: 17px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #212A2F;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.6s;
+    text-align: center;
+
+}
+
+.email-btn:hover {
+    color: white;
+    background: #212A2F;
+    transition: 0.6s;
+
+}
+
+.email-descr {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #74797C;
+}
+
+
+/*email*/
+
+
+/*  footer*/
+footer {
+    background-color: #212A2F;
+    color: white;
+    padding: 71px 0 90px;
+}
+
+footer a {
+    color: white;
+}
+
+.footer-title {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+
+.footer-li {
+    list-style: none;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+}
+
+.footer-end {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.footer-block{
+    display: flex;
+    justify-content: space-between;
+    margin: 85px 0 ;
+}
+
+/*footer*/
+
+
